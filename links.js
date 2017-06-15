@@ -1,4 +1,5 @@
 const express = require('express')
+const linksRouter = require('./routes/links')
 
 //Make a new Express Router
 const router = express.Router()
@@ -14,4 +15,4 @@ app.get('/photos',(req, res) => {
 })
 
 module.exports = router
-// Same as: export default router 
+// Same as: export default router
