@@ -1,0 +1,17 @@
+{
+  "name": "express-links-api",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Paige Richards <paige.richards14@hotmail.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
