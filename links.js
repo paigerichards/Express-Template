@@ -12,3 +12,6 @@ app.get('/photos',(req, res) => {
     ]
   })
 })
+
+module.exports = router
+// Same as: export default router 
